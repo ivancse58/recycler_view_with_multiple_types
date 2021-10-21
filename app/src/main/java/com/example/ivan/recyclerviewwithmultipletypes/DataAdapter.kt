@@ -30,7 +30,7 @@ class DataAdapter : RecyclerView.Adapter<DataAdapter.DataAdapterViewHolder>() {
     }
 
 
-    //-----------onCreateViewHolder: bind view with data model---------
+    //-----------onBindViewHolder: bind view with data model---------
     override fun onBindViewHolder(holder: DataAdapterViewHolder, position: Int) {
         holder.bind(adapterData[position])
     }
